@@ -1,15 +1,17 @@
+<script setup lang="ts"></script>
+
 <template>
   <header>
-    <div class="container">
-      <router-link class="logo" to="/">Logo</router-link>
-      <nav>
-        <router-link to="/services">What we offer</router-link>
-        <router-link to="/pricing">Pricing</router-link>
-        <router-link to="/about">About</router-link>
-      </nav>
-      <div class="contact-placeholder"></div>
-      <button class="contact" to="/">Contact</button>
-    </div>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/">Shop</router-link>
+      <router-link to="/">About</router-link>
+      <router-link to="/">Contacts</router-link>
+    </nav>
+    <button class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+    </button>
   </header>
 </template>
 
@@ -17,53 +19,18 @@
 @import ../assets/global
 
 header
-  top: 20px
-  width: 100%
-  position: fixed
-
-  .container
-    width: 80%
-    margin: auto
-    border: 1px solid rgba(255, 255, 255, 0.20)
+    background: transparent
+    padding: 1.5rem 2.5rem
     display: flex
-    padding: 1rem 2rem
-    position: relative
-    background: $primary
-    align-items: center
-    border-radius: 50px
     justify-content: space-between
 
-    .logo
-        color: $white
-        font-size: 1.75rem
-        font-family: "Vollkorn", serif
-        text-decoration: none
-
     nav
-        gap: 2.5rem
         display: flex
-        font-weight: 400
-        font-family: "Poppins", sans-serif
+        gap: 1.5rem
 
         a
-            color: white
             text-decoration: none
-
-    .contact-placeholder
-        width: 7ch
-    .contact
-        right: 0
-        width: 100px
-        color: $black
-        border: none
-        height: 71px
-        cursor: pointer
-        display: grid
-        position: absolute
-        background: $secondary
-        font-weight: 500
-        place-items: center
-        font-family: "Poppins", sans-serif
-        border-radius: 50px
-        text-decoration: none
+            color: $black
+            font-family: "Montserrat", sans-serif
+            font-size: 14px
 </style>
