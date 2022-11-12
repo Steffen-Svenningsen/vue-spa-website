@@ -4,7 +4,7 @@
       <h1>Artworld</h1>
     </div>
     <div class="img-container">
-      <img src="@/assets/Hero.png" alt="Painting" />
+      <img src="@/assets/Hero.webp" alt="Painting" />
     </div>
   </div>
 </template>
