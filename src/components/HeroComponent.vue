@@ -18,8 +18,8 @@
         width: 100%
 
         h1
+            font-size: clamp(84px, 10vw, 112px)
             font-family: "Moglan", sans-serif
-            font-size: 114px
             border-bottom: 1px solid $black
             margin-bottom: 1.25rem
 
@@ -27,6 +27,6 @@
         width: 100%
 
         img
-            max-width: 100%
             height: auto
+            max-width: 100%
 </style>
