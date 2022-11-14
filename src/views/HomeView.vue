@@ -29,8 +29,8 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
         <img
           class="appstore"
           src="@/assets/Appstore.webp"
-          width="500"
-          height="380"
+          width="400"
+          height="750"
           alt="Artworld App"
         />
       </div>
@@ -116,9 +116,11 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
             border: 1px solid $black
             color: $background
 
-    .appstore
-      border-bottom: 2px solid $black
   section
+
+    .appstore
+      transform: translateY(-100px)
+
 
     .paintings
       width: clamp(200px, 4vw, 700px)
