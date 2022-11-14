@@ -66,5 +66,4 @@ footer
             &:hover::before
                 width: 80px
                 opacity: 0.75
-                
 </style>
