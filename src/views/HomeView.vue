@@ -32,6 +32,7 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
           width="400"
           height="750"
           alt="Artworld App"
+          loading="lazy"
         />
       </div>
     </section>
@@ -42,12 +43,14 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
           width="320"
           height="480"
           alt="Red Painting"
+          loading="lazy"
         />
         <img
           src="@/assets/OrangePainting.webp"
           width="320"
           height="480"
           alt="Orange Painting"
+          loading="lazy"
         />
       </div>
       <div v-motion-pop-visible-once class="col">
@@ -86,12 +89,14 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
         font-size: 54px
         margin-bottom: 50px
         color: $black
+        background: transparent
 
       p
         font-family: "Montserrat", sans-serif
         font-size: 18px
         margin-bottom: 70px
         color: $black
+        background: transparent
 
       .slider
         display: flex
