@@ -29,8 +29,8 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
         <img
           class="appstore"
           src="@/assets/Appstore.webp"
-          width="400"
-          height="750"
+          width="393"
+          height="733"
           alt="Artworld App"
           loading="lazy"
         />
