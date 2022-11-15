@@ -7,7 +7,7 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
   <div class="home">
     <Hero />
     <section>
-      <div class="col">
+      <div v-motion-pop-visible-once class="col">
         <h1>
           Buy artwork <br />
           in our app
@@ -25,7 +25,7 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
           <button>→</button>
         </div>
       </div>
-      <div>
+      <div v-motion-slide-visible-once-right>
         <img
           class="appstore"
           src="@/assets/Appstore.webp"
@@ -36,7 +36,7 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
       </div>
     </section>
     <section>
-      <div class="paintings">
+      <div v-motion-slide-visible-once-left class="paintings">
         <img
           src="@/assets/RedPainting.webp"
           width="320"
@@ -50,7 +50,7 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
           alt="Orange Painting"
         />
       </div>
-      <div class="col">
+      <div v-motion-pop-visible-once class="col">
         <h1>
           NFT Gallery <br />
           of your Dreams
