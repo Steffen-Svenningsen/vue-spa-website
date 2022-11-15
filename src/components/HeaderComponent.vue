@@ -8,9 +8,9 @@
       <router-link to="/events">Events</router-link>
       <router-link to="/contact">Contact</router-link>
     </nav>
-    <button name="menu" class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
+    <button name="menu" title="menu" id="hamburger" class="hamburger">
+      <div role="button" class="line"></div>
+      <div role="button" class="line"></div>
     </button>
   </header>
 </template>
