@@ -85,11 +85,13 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
         font-family: "Moglan", sans-serif
         font-size: 54px
         margin-bottom: 50px
+        color: $black
 
       p
         font-family: "Montserrat", sans-serif
         font-size: 18px
         margin-bottom: 70px
+        color: $black
 
       .slider
         display: flex
