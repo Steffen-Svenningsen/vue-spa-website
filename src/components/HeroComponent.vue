@@ -3,9 +3,7 @@
     <div>
       <h1>Artworld</h1>
     </div>
-    <div class="img-container">
-      <img src="@/assets/Hero.webp" alt="Painting" />
-    </div>
+    <div class="hero-img"></div>
   </div>
 </template>
 
@@ -23,10 +21,9 @@
             border-bottom: 1px solid $black
             margin-bottom: 1.25rem
 
-    .img-container
+    .hero-img
         width: 100%
-
-        img
-            height: auto
-            max-width: 100%
+        height: 400px
+        background-size: cover
+        background-image: url("../assets/Hero.webp")
 </style>
