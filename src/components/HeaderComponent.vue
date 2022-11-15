@@ -8,7 +8,7 @@
       <router-link to="/events">Events</router-link>
       <router-link to="/contact">Contact</router-link>
     </nav>
-    <button class="hamburger">
+    <button id="hamburger" class="hamburger">
       <div class="line"></div>
       <div class="line"></div>
     </button>
